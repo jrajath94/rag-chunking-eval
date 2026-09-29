@@ -1,0 +1,547 @@
+{
+  "questions": [
+    {
+      "question_id": "56ddde6b9a695914005b9628",
+      "doc_id": "squad-doc-000",
+      "question": "In what country is Normandy located?",
+      "answer": "France",
+      "gold_sentence_ids": [
+        "squad-doc-000:s0"
+      ]
+    },
+    {
+      "question_id": "56ddde6b9a695914005b9629",
+      "doc_id": "squad-doc-000",
+      "question": "When were the Normans in Normandy?",
+      "answer": "10th and 11th centuries",
+      "gold_sentence_ids": [
+        "squad-doc-000:s0"
+      ]
+    },
+    {
+      "question_id": "56ddde6b9a695914005b962a",
+      "doc_id": "squad-doc-000",
+      "question": "From which countries did the Norse originate?",
+      "answer": "Denmark, Iceland and Norway",
+      "gold_sentence_ids": [
+        "squad-doc-000:s1"
+      ]
+    },
+    {
+      "question_id": "56ddde6b9a695914005b962b",
+      "doc_id": "squad-doc-000",
+      "question": "Who was the Norse leader?",
+      "answer": "Rollo",
+      "gold_sentence_ids": [
+        "squad-doc-000:s1"
+      ]
+    },
+    {
+      "question_id": "56ddde6b9a695914005b962c",
+      "doc_id": "squad-doc-000",
+      "question": "What century did the Normans first gain their separate identity?",
+      "answer": "10th century",
+      "gold_sentence_ids": [
+        "squad-doc-000:s3"
+      ]
+    },
+    {
+      "question_id": "56dddf4066d3e219004dad5f",
+      "doc_id": "squad-doc-001",
+      "question": "Who was the duke in the battle of Hastings?",
+      "answer": "William the Conqueror",
+      "gold_sentence_ids": [
+        "squad-doc-001:s5"
+      ]
+    },
+    {
+      "question_id": "56dddf4066d3e219004dad60",
+      "doc_id": "squad-doc-001",
+      "question": "Who ruled the duchy of Normandy",
+      "answer": "Richard I",
+      "gold_sentence_ids": [
+        "squad-doc-001:s3"
+      ]
+    },
+    {
+      "question_id": "56dddf4066d3e219004dad61",
+      "doc_id": "squad-doc-001",
+      "question": "What religion were the Normans",
+      "answer": "Catholic",
+      "gold_sentence_ids": [
+        "squad-doc-001:s1"
+      ]
+    },
+    {
+      "question_id": "56dde0379a695914005b9636",
+      "doc_id": "squad-doc-002",
+      "question": "What is the original meaning of the word Norman?",
+      "answer": "Viking",
+      "gold_sentence_ids": [
+        "squad-doc-002:s0"
+      ]
+    },
+    {
+      "question_id": "56dde0379a695914005b9637",
+      "doc_id": "squad-doc-002",
+      "question": "When was the Latin version of the word Norman first recorded?",
+      "answer": "9th century",
+      "gold_sentence_ids": [
+        "squad-doc-002:s0"
+      ]
+    },
+    {
+      "question_id": "56dde0ba66d3e219004dad75",
+      "doc_id": "squad-doc-003",
+      "question": "When was the Duchy of Normandy founded?",
+      "answer": "911",
+      "gold_sentence_ids": [
+        "squad-doc-003:s1"
+      ]
+    },
+    {
+      "question_id": "56dde0ba66d3e219004dad76",
+      "doc_id": "squad-doc-003",
+      "question": "Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?",
+      "answer": "King Charles III",
+      "gold_sentence_ids": [
+        "squad-doc-003:s1"
+      ]
+    },
+    {
+      "question_id": "56dde0ba66d3e219004dad77",
+      "doc_id": "squad-doc-003",
+      "question": "What river originally bounded the Duchy",
+      "answer": "Seine",
+      "gold_sentence_ids": [
+        "squad-doc-003:s3"
+      ]
+    },
+    {
+      "question_id": "56dde1d966d3e219004dad8d",
+      "doc_id": "squad-doc-004",
+      "question": "Who upon arriving gave the original viking settlers a common identity?",
+      "answer": "Rollo",
+      "gold_sentence_ids": [
+        "squad-doc-004:s0"
+      ]
+    },
+    {
+      "question_id": "56dde27d9a695914005b9651",
+      "doc_id": "squad-doc-005",
+      "question": "What was the Norman religion?",
+      "answer": "Catholicism",
+      "gold_sentence_ids": [
+        "squad-doc-005:s0"
+      ]
+    },
+    {
+      "question_id": "56dde27d9a695914005b9652",
+      "doc_id": "squad-doc-005",
+      "question": "What part of France were the Normans located?",
+      "answer": "north",
+      "gold_sentence_ids": [
+        "squad-doc-005:s0"
+      ]
+    },
+    {
+      "question_id": "56dde2fa66d3e219004dad9b",
+      "doc_id": "squad-doc-006",
+      "question": "What was one of the Norman's major exports?",
+      "answer": "fighting horsemen",
+      "gold_sentence_ids": [
+        "squad-doc-006:s2"
+      ]
+    },
+    {
+      "question_id": "56de0f6a4396321400ee257f",
+      "doc_id": "squad-doc-007",
+      "question": "Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",
+      "answer": "Seljuk Turks",
+      "gold_sentence_ids": [
+        "squad-doc-007:s0"
+      ]
+    },
+    {
+      "question_id": "56de0ffd4396321400ee258d",
+      "doc_id": "squad-doc-008",
+      "question": "When did Herve serve as a Byzantine general?",
+      "answer": "1050s",
+      "gold_sentence_ids": [
+        "squad-doc-008:s0"
+      ]
+    },
+    {
+      "question_id": "56de0ffd4396321400ee258e",
+      "doc_id": "squad-doc-008",
+      "question": "When did Robert Crispin go up against the Turks?",
+      "answer": "1060s",
+      "gold_sentence_ids": [
+        "squad-doc-008:s3"
+      ]
+    },
+    {
+      "question_id": "56de0ffd4396321400ee258f",
+      "doc_id": "squad-doc-008",
+      "question": "Who ruined Roussel de Bailleul's plans for an independent state?",
+      "answer": "Alexius Komnenos",
+      "gold_sentence_ids": [
+        "squad-doc-008:s4"
+      ]
+    },
+    {
+      "question_id": "56de10b44396321400ee2593",
+      "doc_id": "squad-doc-009",
+      "question": "What was the name of the Norman castle?",
+      "answer": "Afranji",
+      "gold_sentence_ids": [
+        "squad-doc-009:s4"
+      ]
+    },
+    {
+      "question_id": "56de10b44396321400ee2594",
+      "doc_id": "squad-doc-009",
+      "question": "Who was the leader when the Franks entered the Euphrates valley?",
+      "answer": "Oursel",
+      "gold_sentence_ids": [
+        "squad-doc-009:s2"
+      ]
+    },
+    {
+      "question_id": "56de10b44396321400ee2595",
+      "doc_id": "squad-doc-009",
+      "question": "Who did the Normans team up with in Anatolia?",
+      "answer": "Turkish forces",
+      "gold_sentence_ids": [
+        "squad-doc-009:s0"
+      ]
+    },
+    {
+      "question_id": "56de11154396321400ee25aa",
+      "doc_id": "squad-doc-010",
+      "question": "What were the origins of the Raouliii family?",
+      "answer": "Norman mercenary",
+      "gold_sentence_ids": [
+        "squad-doc-010:s0"
+      ]
+    },
+    {
+      "question_id": "56de148dcffd8e1900b4b5bc",
+      "doc_id": "squad-doc-011",
+      "question": "What was the name of the count of Apulia ",
+      "answer": "Robert Guiscard",
+      "gold_sentence_ids": [
+        "squad-doc-011:s0"
+      ]
+    },
+    {
+      "question_id": "56de148dcffd8e1900b4b5bd",
+      "doc_id": "squad-doc-011",
+      "question": "When did Dyrrachium  fall to the Normans?",
+      "answer": "1082",
+      "gold_sentence_ids": [
+        "squad-doc-011:s8"
+      ]
+    },
+    {
+      "question_id": "56de148dcffd8e1900b4b5be",
+      "doc_id": "squad-doc-011",
+      "question": "How many men were in Robert's army?",
+      "answer": "30,000",
+      "gold_sentence_ids": [
+        "squad-doc-011:s2"
+      ]
+    },
+    {
+      "question_id": "56de15104396321400ee25b7",
+      "doc_id": "squad-doc-012",
+      "question": "Where did the Normans and Byzantines sign the peace treaty?",
+      "answer": "Deabolis",
+      "gold_sentence_ids": [
+        "squad-doc-012:s1"
+      ]
+    },
+    {
+      "question_id": "56de15104396321400ee25b8",
+      "doc_id": "squad-doc-012",
+      "question": "Who was Robert's son?",
+      "answer": "Bohemond",
+      "gold_sentence_ids": [
+        "squad-doc-012:s0"
+      ]
+    },
+    {
+      "question_id": "56de15104396321400ee25b9",
+      "doc_id": "squad-doc-012",
+      "question": "What river was Petrela located by?",
+      "answer": "Deabolis",
+      "gold_sentence_ids": [
+        "squad-doc-012:s1"
+      ]
+    },
+    {
+      "question_id": "56de1563cffd8e1900b4b5c2",
+      "doc_id": "squad-doc-013",
+      "question": "When did the Normans attack Dyrrachium?",
+      "answer": "1185",
+      "gold_sentence_ids": [
+        "squad-doc-013:s0"
+      ]
+    },
+    {
+      "question_id": "56de1563cffd8e1900b4b5c3",
+      "doc_id": "squad-doc-013",
+      "question": "What was the naval base called?",
+      "answer": "Dyrrachium",
+      "gold_sentence_ids": [
+        "squad-doc-013:s0"
+      ]
+    },
+    {
+      "question_id": "56de1563cffd8e1900b4b5c4",
+      "doc_id": "squad-doc-013",
+      "question": "Where was Dyrrachium located?",
+      "answer": "the Adriatic",
+      "gold_sentence_ids": [
+        "squad-doc-013:s1"
+      ]
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5c8",
+      "doc_id": "squad-doc-014",
+      "question": "Who did Emma Marry?",
+      "answer": "King Ethelred II",
+      "gold_sentence_ids": [
+        "squad-doc-014:s2"
+      ]
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5c9",
+      "doc_id": "squad-doc-014",
+      "question": "Who was Emma's brother?",
+      "answer": "Duke Richard II",
+      "gold_sentence_ids": [
+        "squad-doc-014:s2"
+      ]
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5ca",
+      "doc_id": "squad-doc-014",
+      "question": "To where did Ethelred flee?",
+      "answer": "Normandy",
+      "gold_sentence_ids": [
+        "squad-doc-014:s3"
+      ]
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5cb",
+      "doc_id": "squad-doc-014",
+      "question": "Who kicked Ethelred out?",
+      "answer": "Sweyn Forkbeard",
+      "gold_sentence_ids": [
+        "squad-doc-014:s3"
+      ]
+    },
+    {
+      "question_id": "56de1645cffd8e1900b4b5d0",
+      "doc_id": "squad-doc-015",
+      "question": "Who was Edward the Confessor's half-brother?",
+      "answer": "Harthacnut",
+      "gold_sentence_ids": [
+        "squad-doc-015:s0"
+      ]
+    },
+    {
+      "question_id": "56de1645cffd8e1900b4b5d1",
+      "doc_id": "squad-doc-015",
+      "question": "When did Edward return?",
+      "answer": "1041",
+      "gold_sentence_ids": [
+        "squad-doc-015:s0"
+      ]
+    },
+    {
+      "question_id": "56de1645cffd8e1900b4b5d2",
+      "doc_id": "squad-doc-015",
+      "question": "Who did Edward make archbishop of Canterbury?",
+      "answer": "Robert of Jumi\u00e8ges",
+      "gold_sentence_ids": [
+        "squad-doc-015:s3"
+      ]
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c5",
+      "doc_id": "squad-doc-016",
+      "question": "Where did Harold II die?",
+      "answer": "Battle of Hastings",
+      "gold_sentence_ids": [
+        "squad-doc-016:s0"
+      ]
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c6",
+      "doc_id": "squad-doc-016",
+      "question": "Who killed Harold II? ",
+      "answer": "William II",
+      "gold_sentence_ids": [
+        "squad-doc-016:s0"
+      ]
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c7",
+      "doc_id": "squad-doc-016",
+      "question": "When was the Battle of Hastings?",
+      "answer": "1066",
+      "gold_sentence_ids": [
+        "squad-doc-016:s0"
+      ]
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c8",
+      "doc_id": "squad-doc-016",
+      "question": "Who was the ruling class ahead of the Normans?",
+      "answer": "Anglo-Saxons",
+      "gold_sentence_ids": [
+        "squad-doc-016:s1"
+      ]
+    },
+    {
+      "question_id": "56de1728cffd8e1900b4b5d7",
+      "doc_id": "squad-doc-017",
+      "question": "What was the Anglo-Norman language's final form?",
+      "answer": "Modern English",
+      "gold_sentence_ids": [
+        "squad-doc-017:s4"
+      ]
+    },
+    {
+      "question_id": "56de179dcffd8e1900b4b5da",
+      "doc_id": "squad-doc-018",
+      "question": "In what year did the Norman's invade at Bannow Bay?",
+      "answer": "1169",
+      "gold_sentence_ids": [
+        "squad-doc-018:s0"
+      ]
+    },
+    {
+      "question_id": "56de179dcffd8e1900b4b5db",
+      "doc_id": "squad-doc-018",
+      "question": "What country did the Normans invade in 1169?",
+      "answer": "Ireland",
+      "gold_sentence_ids": [
+        "squad-doc-018:s2"
+      ]
+    },
+    {
+      "question_id": "56de179dcffd8e1900b4b5dc",
+      "doc_id": "squad-doc-018",
+      "question": "What culture did the Normans combine with in Ireland?",
+      "answer": "Irish",
+      "gold_sentence_ids": [
+        "squad-doc-018:s0"
+      ]
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e0",
+      "doc_id": "squad-doc-019",
+      "question": "Who was Margaret's brother?",
+      "answer": "Edgar",
+      "gold_sentence_ids": [
+        "squad-doc-019:s0"
+      ]
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e1",
+      "doc_id": "squad-doc-019",
+      "question": "Who was Margaret's husband?",
+      "answer": "King Malcolm III of Scotland",
+      "gold_sentence_ids": [
+        "squad-doc-019:s1"
+      ]
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e2",
+      "doc_id": "squad-doc-019",
+      "question": "When was Scotland invaded by William?",
+      "answer": "1072",
+      "gold_sentence_ids": [
+        "squad-doc-019:s2"
+      ]
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e3",
+      "doc_id": "squad-doc-019",
+      "question": "Who was the hostage?",
+      "answer": "Duncan",
+      "gold_sentence_ids": [
+        "squad-doc-019:s3"
+      ]
+    },
+    {
+      "question_id": "56de3cd0cffd8e1900b4b6be",
+      "doc_id": "squad-doc-020",
+      "question": "Who did Alexander I marry?",
+      "answer": "Sybilla of Normandy",
+      "gold_sentence_ids": [
+        "squad-doc-020:s1"
+      ]
+    },
+    {
+      "question_id": "56de3cd0cffd8e1900b4b6bf",
+      "doc_id": "squad-doc-020",
+      "question": "What culture's arrival in Scotland is know as the \"Davidian Revolution\"?",
+      "answer": "Norman",
+      "gold_sentence_ids": [
+        "squad-doc-020:s1"
+      ]
+    },
+    {
+      "question_id": "56de3d594396321400ee26ca",
+      "doc_id": "squad-doc-021",
+      "question": "Where was Ralph earl of?",
+      "answer": "Hereford",
+      "gold_sentence_ids": [
+        "squad-doc-021:s1"
+      ]
+    },
+    {
+      "question_id": "56de3d594396321400ee26cb",
+      "doc_id": "squad-doc-021",
+      "question": "Who was Ralph in charge of being at war with?",
+      "answer": "the Welsh",
+      "gold_sentence_ids": [
+        "squad-doc-021:s1"
+      ]
+    },
+    {
+      "question_id": "56de3d594396321400ee26cc",
+      "doc_id": "squad-doc-021",
+      "question": "Who made Ralph earl?",
+      "answer": "Edward the Confessor",
+      "gold_sentence_ids": [
+        "squad-doc-021:s1"
+      ]
+    },
+    {
+      "question_id": "56de3dbacffd8e1900b4b6d2",
+      "doc_id": "squad-doc-022",
+      "question": "What country was under the control of Norman barons?",
+      "answer": "Wales",
+      "gold_sentence_ids": [
+        "squad-doc-022:s1"
+      ]
+    },
+    {
+      "question_id": "56de3e414396321400ee26d8",
+      "doc_id": "squad-doc-023",
+      "question": "What year did Roger de Tosny fail to accomplish what he set out to do?",
+      "answer": "1018",
+      "gold_sentence_ids": [
+        "squad-doc-023:s2"
+      ]
+    }
+  ],
+  "n_docs": 24,
+  "source": "SQuAD v2.0 dev",
+  "built_at": "2026-09-28T23:28:43.566074+00:00"
+}
