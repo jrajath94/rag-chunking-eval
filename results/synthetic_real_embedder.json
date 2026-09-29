@@ -1,0 +1,37 @@
+{
+  "stage": "A",
+  "corpus": "synthetic (20 docs, 40 questions, seed=7)",
+  "k": 5,
+  "summary": [
+    {
+      "strategy": "fixed-500-0",
+      "n": 40,
+      "mean_recall": 1.0,
+      "mean_faithfulness": null,
+      "n_empty_answers": 40
+    },
+    {
+      "strategy": "fixed-500-100",
+      "n": 40,
+      "mean_recall": 1.0,
+      "mean_faithfulness": null,
+      "n_empty_answers": 40
+    },
+    {
+      "strategy": "semantic-0.5",
+      "n": 40,
+      "mean_recall": 1.0,
+      "mean_faithfulness": null,
+      "n_empty_answers": 40
+    },
+    {
+      "strategy": "hierarchical-250-1000",
+      "n": 40,
+      "mean_recall": 1.0,
+      "mean_faithfulness": null,
+      "n_empty_answers": 40
+    }
+  ],
+  "built_at": "2026-09-28T23:26:34.044183+00:00",
+  "wall_seconds": 126.9
+}
