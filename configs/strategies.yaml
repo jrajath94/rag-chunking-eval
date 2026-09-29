@@ -1,0 +1,24 @@
+# Chunking strategies for the experiment runner.
+# Each entry: human name, dotted class path, constructor params.
+# Sibling modules (fixed.py, semantic.py, hierarchical.py) are written in
+# parallel; load_strategies() imports them lazily at load time.
+strategies:
+  - name: fixed-500-0
+    class: rag_chunking_eval.chunking.fixed.FixedCharChunker
+    params:
+      chunk_size: 500
+      overlap: 0
+  - name: fixed-500-100
+    class: rag_chunking_eval.chunking.fixed.FixedCharChunker
+    params:
+      chunk_size: 500
+      overlap: 100
+  - name: semantic-0.5
+    class: rag_chunking_eval.chunking.semantic.SemanticChunker
+    params:
+      threshold: 0.5
+  - name: hierarchical-250-1000
+    class: rag_chunking_eval.chunking.hierarchical.HierarchicalChunker
+    params:
+      child_chars: 250
+      parent_chars: 1000
