@@ -1,0 +1,11 @@
+# Install CPU-only torch first (keeps the box light, no CUDA needed):
+#   TMPDIR=~/pip-tmp pip install torch --index-url https://download.pytorch.org/whl/cpu
+numpy
+scikit-learn
+scipy
+pyyaml
+tqdm
+matplotlib
+pytest
+sentence-transformers
+transformers
