@@ -1,0 +1,5 @@
+strategy,n,recall@5,recall_min,recall_p25,recall_median,recall_p75,recall_max,faithfulness,faithfulness_min,faithfulness_median,faithfulness_max,n_empty_answers
+fixed-500-0,60,0.8000,0.0000,1.0000,1.0000,1.0000,1.0000,0.0167,0.0000,0.0000,1.0000,0
+fixed-500-100,60,0.8167,0.0000,1.0000,1.0000,1.0000,1.0000,0.0167,0.0000,0.0000,1.0000,0
+semantic-0.5,60,0.8667,0.0000,1.0000,1.0000,1.0000,1.0000,0.0167,0.0000,0.0000,1.0000,0
+hierarchical-250-1000,60,0.9167,0.0000,1.0000,1.0000,1.0000,1.0000,0.0000,0.0000,0.0000,0.0000,0
