@@ -1,0 +1,14 @@
+pyproject.toml
+src/rag_chunking_eval/__init__.py
+src/rag_chunking_eval/text.py
+src/rag_chunking_eval.egg-info/PKG-INFO
+src/rag_chunking_eval.egg-info/SOURCES.txt
+src/rag_chunking_eval.egg-info/dependency_links.txt
+src/rag_chunking_eval.egg-info/top_level.txt
+src/rag_chunking_eval/chunking/__init__.py
+src/rag_chunking_eval/chunking/base.py
+src/rag_chunking_eval/corpus/__init__.py
+src/rag_chunking_eval/evaluation/__init__.py
+tests/test_chunkers.py
+tests/test_e2e.py
+tests/test_metrics.py
