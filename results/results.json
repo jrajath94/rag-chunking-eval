@@ -1,0 +1,4028 @@
+{
+  "run": {
+    "corpus": "SQuAD v2.0 dev slice (60 answerable questions)",
+    "embedder": "sentence-transformers/all-MiniLM-L6-v2",
+    "generator": "google/flan-t5-base, greedy (do_sample=False), max_new_tokens=64",
+    "k": 5,
+    "nli_judge": "cross-encoder/nli-deberta-v3-small, supported = P(entailment) >= 0.5 and P(contradiction) < 0.5",
+    "built_at": "2026-09-29T01:06:12.924572+00:00",
+    "wall_seconds": 562.4
+  },
+  "records": [
+    {
+      "question_id": "56ddde6b9a695914005b9628",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-003:::fixed-500-0:::0000",
+        "squad-doc-003:::fixed-500-0:::0001",
+        "squad-doc-014:::fixed-500-0:::0001",
+        "squad-doc-000:::fixed-500-0:::0000",
+        "squad-doc-016:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "France",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56ddde6b9a695914005b9629",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-000:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0000",
+        "squad-doc-006:::fixed-500-0:::0000",
+        "squad-doc-016:::fixed-500-0:::0000",
+        "squad-doc-003:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "10th and 11th centuries",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56ddde6b9a695914005b962a",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-005:::fixed-500-0:::0000",
+        "squad-doc-017:::fixed-500-0:::0001",
+        "squad-doc-000:::fixed-500-0:::0000",
+        "squad-doc-002:::fixed-500-0:::0000",
+        "squad-doc-004:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Denmark, Iceland and Norway",
+      "n_claims": 1,
+      "n_supported": 1,
+      "faithfulness": 1.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56ddde6b9a695914005b962b",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-004:::fixed-500-0:::0001",
+        "squad-doc-000:::fixed-500-0:::0000",
+        "squad-doc-003:::fixed-500-0:::0000",
+        "squad-doc-002:::fixed-500-0:::0000",
+        "squad-doc-005:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Rollo",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56ddde6b9a695914005b962c",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-000:::fixed-500-0:::0000",
+        "squad-doc-000:::fixed-500-0:::0001",
+        "squad-doc-018:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0000",
+        "squad-doc-002:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "10th",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dddf4066d3e219004dad5f",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-001:::fixed-500-0:::0002",
+        "squad-doc-016:::fixed-500-0:::0000",
+        "squad-doc-021:::fixed-500-0:::0000",
+        "squad-doc-023:::fixed-500-0:::0000",
+        "squad-doc-022:::fixed-500-0:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "William II",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dddf4066d3e219004dad60",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-003:::fixed-500-0:::0000",
+        "squad-doc-016:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0002",
+        "squad-doc-014:::fixed-500-0:::0001",
+        "squad-doc-001:::fixed-500-0:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "Rollo",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dddf4066d3e219004dad61",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-001:::fixed-500-0:::0000",
+        "squad-doc-000:::fixed-500-0:::0000",
+        "squad-doc-023:::fixed-500-0:::0000",
+        "squad-doc-006:::fixed-500-0:::0000",
+        "squad-doc-018:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Catholic",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde0379a695914005b9636",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-002:::fixed-500-0:::0000",
+        "squad-doc-000:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0000",
+        "squad-doc-017:::fixed-500-0:::0000",
+        "squad-doc-018:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Norseman, Viking",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde0379a695914005b9637",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-002:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0000",
+        "squad-doc-017:::fixed-500-0:::0000",
+        "squad-doc-000:::fixed-500-0:::0000",
+        "squad-doc-017:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "9th century",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde0ba66d3e219004dad75",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-003:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0002",
+        "squad-doc-001:::fixed-500-0:::0000",
+        "squad-doc-006:::fixed-500-0:::0000",
+        "squad-doc-014:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "911",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde0ba66d3e219004dad76",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-003:::fixed-500-0:::0000",
+        "squad-doc-004:::fixed-500-0:::0000",
+        "squad-doc-023:::fixed-500-0:::0000",
+        "squad-doc-012:::fixed-500-0:::0001",
+        "squad-doc-008:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "King Charles III of West Francia",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde0ba66d3e219004dad77",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-003:::fixed-500-0:::0000",
+        "squad-doc-003:::fixed-500-0:::0001",
+        "squad-doc-001:::fixed-500-0:::0002",
+        "squad-doc-001:::fixed-500-0:::0000",
+        "squad-doc-016:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "river Epte",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde1d966d3e219004dad8d",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-004:::fixed-500-0:::0000",
+        "squad-doc-000:::fixed-500-0:::0000",
+        "squad-doc-004:::fixed-500-0:::0001",
+        "squad-doc-002:::fixed-500-0:::0000",
+        "squad-doc-017:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Rollo",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde27d9a695914005b9651",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-001:::fixed-500-0:::0000",
+        "squad-doc-023:::fixed-500-0:::0000",
+        "squad-doc-000:::fixed-500-0:::0000",
+        "squad-doc-000:::fixed-500-0:::0001",
+        "squad-doc-020:::fixed-500-0:::0002"
+      ],
+      "recall": 0.0,
+      "answer": "Christian",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56dde27d9a695914005b9652",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-000:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0000",
+        "squad-doc-006:::fixed-500-0:::0000",
+        "squad-doc-018:::fixed-500-0:::0001",
+        "squad-doc-023:::fixed-500-0:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde2fa66d3e219004dad9b",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-006:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0000",
+        "squad-doc-018:::fixed-500-0:::0000",
+        "squad-doc-023:::fixed-500-0:::0000",
+        "squad-doc-000:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "fighting horsemen",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de0f6a4396321400ee257f",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-007:::fixed-500-0:::0000",
+        "squad-doc-009:::fixed-500-0:::0000",
+        "squad-doc-010:::fixed-500-0:::0000",
+        "squad-doc-023:::fixed-500-0:::0000",
+        "squad-doc-008:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Pechenegs",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de0ffd4396321400ee258d",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-008:::fixed-500-0:::0001",
+        "squad-doc-008:::fixed-500-0:::0000",
+        "squad-doc-011:::fixed-500-0:::0002",
+        "squad-doc-009:::fixed-500-0:::0000",
+        "squad-doc-011:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "1050s",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de0ffd4396321400ee258e",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-008:::fixed-500-0:::0000",
+        "squad-doc-009:::fixed-500-0:::0000",
+        "squad-doc-008:::fixed-500-0:::0001",
+        "squad-doc-011:::fixed-500-0:::0000",
+        "squad-doc-011:::fixed-500-0:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "1060s",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de0ffd4396321400ee258f",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-008:::fixed-500-0:::0000",
+        "squad-doc-012:::fixed-500-0:::0001",
+        "squad-doc-023:::fixed-500-0:::0000",
+        "squad-doc-009:::fixed-500-0:::0000",
+        "squad-doc-003:::fixed-500-0:::0001"
+      ],
+      "recall": 0.0,
+      "answer": "Bohemond",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de10b44396321400ee2593",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-018:::fixed-500-0:::0000",
+        "squad-doc-018:::fixed-500-0:::0001",
+        "squad-doc-001:::fixed-500-0:::0002",
+        "squad-doc-000:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "Trim Castle",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de10b44396321400ee2594",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-009:::fixed-500-0:::0000",
+        "squad-doc-011:::fixed-500-0:::0002",
+        "squad-doc-001:::fixed-500-0:::0002",
+        "squad-doc-007:::fixed-500-0:::0000",
+        "squad-doc-023:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Oursel",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de10b44396321400ee2595",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-009:::fixed-500-0:::0000",
+        "squad-doc-008:::fixed-500-0:::0000",
+        "squad-doc-007:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "Turkish forces",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de11154396321400ee25aa",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-010:::fixed-500-0:::0000",
+        "squad-doc-007:::fixed-500-0:::0001",
+        "squad-doc-009:::fixed-500-0:::0001",
+        "squad-doc-006:::fixed-500-0:::0000",
+        "squad-doc-000:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Norman mercenary origin",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de148dcffd8e1900b4b5bc",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-011:::fixed-500-0:::0000",
+        "squad-doc-012:::fixed-500-0:::0001",
+        "squad-doc-008:::fixed-500-0:::0001",
+        "squad-doc-011:::fixed-500-0:::0003",
+        "squad-doc-011:::fixed-500-0:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "Robert Guiscard",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de148dcffd8e1900b4b5bd",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-013:::fixed-500-0:::0000",
+        "squad-doc-011:::fixed-500-0:::0003",
+        "squad-doc-011:::fixed-500-0:::0002",
+        "squad-doc-000:::fixed-500-0:::0001",
+        "squad-doc-012:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "1082",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de148dcffd8e1900b4b5be",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-011:::fixed-500-0:::0000",
+        "squad-doc-009:::fixed-500-0:::0000",
+        "squad-doc-020:::fixed-500-0:::0000",
+        "squad-doc-015:::fixed-500-0:::0000",
+        "squad-doc-020:::fixed-500-0:::0001"
+      ],
+      "recall": 0.0,
+      "answer": "30,000 m",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de15104396321400ee25b7",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-007:::fixed-500-0:::0000",
+        "squad-doc-023:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0002",
+        "squad-doc-008:::fixed-500-0:::0000",
+        "squad-doc-011:::fixed-500-0:::0002"
+      ],
+      "recall": 0.0,
+      "answer": "Genoa",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de15104396321400ee25b8",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-019:::fixed-500-0:::0000",
+        "squad-doc-020:::fixed-500-0:::0001",
+        "squad-doc-020:::fixed-500-0:::0000",
+        "squad-doc-015:::fixed-500-0:::0000",
+        "squad-doc-011:::fixed-500-0:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "Edward",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de15104396321400ee25b9",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-012:::fixed-500-0:::0000",
+        "squad-doc-003:::fixed-500-0:::0001",
+        "squad-doc-012:::fixed-500-0:::0001",
+        "squad-doc-011:::fixed-500-0:::0003",
+        "squad-doc-011:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Deabolis",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de1563cffd8e1900b4b5c2",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-013:::fixed-500-0:::0000",
+        "squad-doc-011:::fixed-500-0:::0002",
+        "squad-doc-011:::fixed-500-0:::0003",
+        "squad-doc-012:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "1185",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de1563cffd8e1900b4b5c3",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-013:::fixed-500-0:::0000",
+        "squad-doc-011:::fixed-500-0:::0001",
+        "squad-doc-011:::fixed-500-0:::0002",
+        "squad-doc-012:::fixed-500-0:::0001",
+        "squad-doc-008:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Dyrrachium",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de1563cffd8e1900b4b5c4",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-013:::fixed-500-0:::0000",
+        "squad-doc-011:::fixed-500-0:::0002",
+        "squad-doc-011:::fixed-500-0:::0003",
+        "squad-doc-012:::fixed-500-0:::0000",
+        "squad-doc-012:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "the Adriatic",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5c8",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-014:::fixed-500-0:::0000",
+        "squad-doc-014:::fixed-500-0:::0001",
+        "squad-doc-019:::fixed-500-0:::0000",
+        "squad-doc-019:::fixed-500-0:::0001",
+        "squad-doc-004:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Duke Richard II of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5c9",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-014:::fixed-500-0:::0000",
+        "squad-doc-014:::fixed-500-0:::0001",
+        "squad-doc-020:::fixed-500-0:::0001",
+        "squad-doc-019:::fixed-500-0:::0000",
+        "squad-doc-019:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "M\u00e1el Coluim mac Alaxandair",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5ca",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-014:::fixed-500-0:::0000",
+        "squad-doc-011:::fixed-500-0:::0003",
+        "squad-doc-019:::fixed-500-0:::0000",
+        "squad-doc-014:::fixed-500-0:::0001",
+        "squad-doc-015:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5cb",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-014:::fixed-500-0:::0000",
+        "squad-doc-015:::fixed-500-0:::0001",
+        "squad-doc-011:::fixed-500-0:::0003",
+        "squad-doc-012:::fixed-500-0:::0001",
+        "squad-doc-019:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Sweyn Forkbeard",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de1645cffd8e1900b4b5d0",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-015:::fixed-500-0:::0000",
+        "squad-doc-021:::fixed-500-0:::0000",
+        "squad-doc-020:::fixed-500-0:::0000",
+        "squad-doc-014:::fixed-500-0:::0000",
+        "squad-doc-019:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Harthacnut",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de1645cffd8e1900b4b5d1",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-015:::fixed-500-0:::0000",
+        "squad-doc-014:::fixed-500-0:::0001",
+        "squad-doc-021:::fixed-500-0:::0000",
+        "squad-doc-014:::fixed-500-0:::0000",
+        "squad-doc-019:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "1041",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de1645cffd8e1900b4b5d2",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-015:::fixed-500-0:::0000",
+        "squad-doc-021:::fixed-500-0:::0000",
+        "squad-doc-006:::fixed-500-0:::0001",
+        "squad-doc-023:::fixed-500-0:::0000",
+        "squad-doc-015:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Robert of Jumi\u00e8ges",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c5",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-016:::fixed-500-0:::0000",
+        "squad-doc-014:::fixed-500-0:::0001",
+        "squad-doc-015:::fixed-500-0:::0001",
+        "squad-doc-021:::fixed-500-0:::0000",
+        "squad-doc-014:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Battle of Hastings",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c6",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-016:::fixed-500-0:::0000",
+        "squad-doc-021:::fixed-500-0:::0000",
+        "squad-doc-015:::fixed-500-0:::0001",
+        "squad-doc-014:::fixed-500-0:::0000",
+        "squad-doc-014:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Duke William II of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c7",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-001:::fixed-500-0:::0002",
+        "squad-doc-016:::fixed-500-0:::0000",
+        "squad-doc-023:::fixed-500-0:::0000",
+        "squad-doc-021:::fixed-500-0:::0000",
+        "squad-doc-022:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "1066",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c8",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-001:::fixed-500-0:::0000",
+        "squad-doc-016:::fixed-500-0:::0000",
+        "squad-doc-000:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0002",
+        "squad-doc-023:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Anglo-Saxons",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de1728cffd8e1900b4b5d7",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-017:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0000",
+        "squad-doc-017:::fixed-500-0:::0001",
+        "squad-doc-002:::fixed-500-0:::0000",
+        "squad-doc-000:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Anglo-Saxon",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de179dcffd8e1900b4b5da",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-018:::fixed-500-0:::0000",
+        "squad-doc-021:::fixed-500-0:::0000",
+        "squad-doc-016:::fixed-500-0:::0000",
+        "squad-doc-023:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "1169",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de179dcffd8e1900b4b5db",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-001:::fixed-500-0:::0002",
+        "squad-doc-023:::fixed-500-0:::0000",
+        "squad-doc-016:::fixed-500-0:::0000",
+        "squad-doc-018:::fixed-500-0:::0000",
+        "squad-doc-000:::fixed-500-0:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "Ireland",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de179dcffd8e1900b4b5dc",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-018:::fixed-500-0:::0000",
+        "squad-doc-018:::fixed-500-0:::0001",
+        "squad-doc-001:::fixed-500-0:::0000",
+        "squad-doc-000:::fixed-500-0:::0001",
+        "squad-doc-000:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Catholic orthodoxy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e0",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-020:::fixed-500-0:::0001",
+        "squad-doc-014:::fixed-500-0:::0000",
+        "squad-doc-016:::fixed-500-0:::0000",
+        "squad-doc-011:::fixed-500-0:::0003",
+        "squad-doc-014:::fixed-500-0:::0001"
+      ],
+      "recall": 0.0,
+      "answer": "M\u00e1el Coluim mac Alaxandair",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e1",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-014:::fixed-500-0:::0000",
+        "squad-doc-019:::fixed-500-0:::0000",
+        "squad-doc-011:::fixed-500-0:::0003",
+        "squad-doc-016:::fixed-500-0:::0000",
+        "squad-doc-020:::fixed-500-0:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "King Malcolm III",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e2",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-019:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0002",
+        "squad-doc-019:::fixed-500-0:::0001",
+        "squad-doc-021:::fixed-500-0:::0000",
+        "squad-doc-016:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "1072",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e3",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-008:::fixed-500-0:::0001",
+        "squad-doc-019:::fixed-500-0:::0000",
+        "squad-doc-012:::fixed-500-0:::0001",
+        "squad-doc-008:::fixed-500-0:::0000",
+        "squad-doc-021:::fixed-500-0:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "Duncan",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3cd0cffd8e1900b4b6be",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-020:::fixed-500-0:::0000",
+        "squad-doc-008:::fixed-500-0:::0001",
+        "squad-doc-019:::fixed-500-0:::0000",
+        "squad-doc-009:::fixed-500-0:::0001",
+        "squad-doc-019:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Sybilla of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3cd0cffd8e1900b4b6bf",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-020:::fixed-500-0:::0000",
+        "squad-doc-020:::fixed-500-0:::0001",
+        "squad-doc-019:::fixed-500-0:::0001",
+        "squad-doc-021:::fixed-500-0:::0000",
+        "squad-doc-022:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Normans",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3d594396321400ee26ca",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-021:::fixed-500-0:::0000",
+        "squad-doc-015:::fixed-500-0:::0000",
+        "squad-doc-019:::fixed-500-0:::0000",
+        "squad-doc-014:::fixed-500-0:::0001",
+        "squad-doc-015:::fixed-500-0:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Hereford",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3d594396321400ee26cb",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-021:::fixed-500-0:::0000",
+        "squad-doc-019:::fixed-500-0:::0000",
+        "squad-doc-015:::fixed-500-0:::0000",
+        "squad-doc-016:::fixed-500-0:::0000",
+        "squad-doc-020:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "the Welsh",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de3d594396321400ee26cc",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-021:::fixed-500-0:::0000",
+        "squad-doc-015:::fixed-500-0:::0000",
+        "squad-doc-019:::fixed-500-0:::0000",
+        "squad-doc-016:::fixed-500-0:::0001",
+        "squad-doc-020:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Edward the Confessor",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3dbacffd8e1900b4b6d2",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-001:::fixed-500-0:::0002",
+        "squad-doc-022:::fixed-500-0:::0000",
+        "squad-doc-023:::fixed-500-0:::0000",
+        "squad-doc-001:::fixed-500-0:::0000",
+        "squad-doc-021:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "England",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de3e414396321400ee26d8",
+      "strategy": "fixed-500-0",
+      "retrieved_ids": [
+        "squad-doc-023:::fixed-500-0:::0000",
+        "squad-doc-012:::fixed-500-0:::0001",
+        "squad-doc-001:::fixed-500-0:::0001",
+        "squad-doc-014:::fixed-500-0:::0001",
+        "squad-doc-021:::fixed-500-0:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "1018",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56ddde6b9a695914005b9628",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-001:::fixed-500-100:::0001",
+        "squad-doc-003:::fixed-500-100:::0000",
+        "squad-doc-003:::fixed-500-100:::0001",
+        "squad-doc-000:::fixed-500-100:::0000",
+        "squad-doc-006:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "France",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56ddde6b9a695914005b9629",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-001:::fixed-500-100:::0001",
+        "squad-doc-000:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0000",
+        "squad-doc-006:::fixed-500-100:::0000",
+        "squad-doc-016:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "10th and 11th centuries",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56ddde6b9a695914005b962a",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-005:::fixed-500-100:::0000",
+        "squad-doc-000:::fixed-500-100:::0000",
+        "squad-doc-002:::fixed-500-100:::0000",
+        "squad-doc-004:::fixed-500-100:::0001",
+        "squad-doc-005:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Denmark, Iceland and Norway",
+      "n_claims": 1,
+      "n_supported": 1,
+      "faithfulness": 1.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56ddde6b9a695914005b962b",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-004:::fixed-500-100:::0001",
+        "squad-doc-000:::fixed-500-100:::0000",
+        "squad-doc-003:::fixed-500-100:::0000",
+        "squad-doc-002:::fixed-500-100:::0000",
+        "squad-doc-019:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Rollo",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56ddde6b9a695914005b962c",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-000:::fixed-500-100:::0001",
+        "squad-doc-000:::fixed-500-100:::0000",
+        "squad-doc-018:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0000",
+        "squad-doc-002:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "10th",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dddf4066d3e219004dad5f",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-016:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0002",
+        "squad-doc-021:::fixed-500-100:::0000",
+        "squad-doc-015:::fixed-500-100:::0001",
+        "squad-doc-023:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "William II",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dddf4066d3e219004dad60",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-001:::fixed-500-100:::0001",
+        "squad-doc-003:::fixed-500-100:::0000",
+        "squad-doc-016:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0000",
+        "squad-doc-006:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Richard I",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dddf4066d3e219004dad61",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-001:::fixed-500-100:::0000",
+        "squad-doc-000:::fixed-500-100:::0000",
+        "squad-doc-023:::fixed-500-100:::0000",
+        "squad-doc-006:::fixed-500-100:::0000",
+        "squad-doc-018:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Catholic",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde0379a695914005b9636",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-002:::fixed-500-100:::0000",
+        "squad-doc-000:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0000",
+        "squad-doc-017:::fixed-500-100:::0000",
+        "squad-doc-018:::fixed-500-100:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "Norseman, Viking",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde0379a695914005b9637",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-002:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0000",
+        "squad-doc-017:::fixed-500-100:::0000",
+        "squad-doc-000:::fixed-500-100:::0000",
+        "squad-doc-007:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "9th century",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde0ba66d3e219004dad75",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-001:::fixed-500-100:::0001",
+        "squad-doc-003:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0003",
+        "squad-doc-001:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "911",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde0ba66d3e219004dad76",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-003:::fixed-500-100:::0001",
+        "squad-doc-003:::fixed-500-100:::0000",
+        "squad-doc-004:::fixed-500-100:::0001",
+        "squad-doc-004:::fixed-500-100:::0000",
+        "squad-doc-012:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "King Charles III of West Francia",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde0ba66d3e219004dad77",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-003:::fixed-500-100:::0000",
+        "squad-doc-003:::fixed-500-100:::0001",
+        "squad-doc-001:::fixed-500-100:::0003",
+        "squad-doc-001:::fixed-500-100:::0001",
+        "squad-doc-001:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Epte",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde1d966d3e219004dad8d",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-004:::fixed-500-100:::0001",
+        "squad-doc-004:::fixed-500-100:::0000",
+        "squad-doc-000:::fixed-500-100:::0000",
+        "squad-doc-002:::fixed-500-100:::0000",
+        "squad-doc-005:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Rollo",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde27d9a695914005b9651",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-001:::fixed-500-100:::0000",
+        "squad-doc-023:::fixed-500-100:::0000",
+        "squad-doc-000:::fixed-500-100:::0000",
+        "squad-doc-018:::fixed-500-100:::0000",
+        "squad-doc-006:::fixed-500-100:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "Christian",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde27d9a695914005b9652",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-000:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0000",
+        "squad-doc-006:::fixed-500-100:::0000",
+        "squad-doc-018:::fixed-500-100:::0001",
+        "squad-doc-001:::fixed-500-100:::0001"
+      ],
+      "recall": 0.0,
+      "answer": "Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde2fa66d3e219004dad9b",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-006:::fixed-500-100:::0001",
+        "squad-doc-006:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0000",
+        "squad-doc-018:::fixed-500-100:::0000",
+        "squad-doc-023:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "fighting horsemen",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de0f6a4396321400ee257f",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-007:::fixed-500-100:::0000",
+        "squad-doc-007:::fixed-500-100:::0001",
+        "squad-doc-009:::fixed-500-100:::0000",
+        "squad-doc-010:::fixed-500-100:::0000",
+        "squad-doc-011:::fixed-500-100:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "Pechenegs",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de0ffd4396321400ee258d",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-011:::fixed-500-100:::0002",
+        "squad-doc-008:::fixed-500-100:::0000",
+        "squad-doc-009:::fixed-500-100:::0000",
+        "squad-doc-011:::fixed-500-100:::0000",
+        "squad-doc-008:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "1050s",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de0ffd4396321400ee258e",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-008:::fixed-500-100:::0000",
+        "squad-doc-009:::fixed-500-100:::0000",
+        "squad-doc-011:::fixed-500-100:::0004",
+        "squad-doc-011:::fixed-500-100:::0000",
+        "squad-doc-011:::fixed-500-100:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "1060s",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de0ffd4396321400ee258f",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-008:::fixed-500-100:::0000",
+        "squad-doc-023:::fixed-500-100:::0001",
+        "squad-doc-012:::fixed-500-100:::0001",
+        "squad-doc-023:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0003"
+      ],
+      "recall": 0.0,
+      "answer": "the papal army",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de10b44396321400ee2593",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-018:::fixed-500-100:::0001",
+        "squad-doc-018:::fixed-500-100:::0000",
+        "squad-doc-000:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0000",
+        "squad-doc-002:::fixed-500-100:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "Trim Castle",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de10b44396321400ee2594",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-009:::fixed-500-100:::0000",
+        "squad-doc-007:::fixed-500-100:::0001",
+        "squad-doc-001:::fixed-500-100:::0003",
+        "squad-doc-009:::fixed-500-100:::0001",
+        "squad-doc-003:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Oursel",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de10b44396321400ee2595",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-009:::fixed-500-100:::0000",
+        "squad-doc-008:::fixed-500-100:::0000",
+        "squad-doc-007:::fixed-500-100:::0000",
+        "squad-doc-007:::fixed-500-100:::0001",
+        "squad-doc-001:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Turkish forces",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de11154396321400ee25aa",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-010:::fixed-500-100:::0000",
+        "squad-doc-009:::fixed-500-100:::0001",
+        "squad-doc-007:::fixed-500-100:::0001",
+        "squad-doc-011:::fixed-500-100:::0004",
+        "squad-doc-006:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Norman mercenary origin",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de148dcffd8e1900b4b5bc",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-011:::fixed-500-100:::0000",
+        "squad-doc-010:::fixed-500-100:::0001",
+        "squad-doc-011:::fixed-500-100:::0002",
+        "squad-doc-011:::fixed-500-100:::0004",
+        "squad-doc-011:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Robert Guiscard",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de148dcffd8e1900b4b5bd",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-011:::fixed-500-100:::0004",
+        "squad-doc-013:::fixed-500-100:::0000",
+        "squad-doc-011:::fixed-500-100:::0003",
+        "squad-doc-012:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "1085",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de148dcffd8e1900b4b5be",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-011:::fixed-500-100:::0000",
+        "squad-doc-011:::fixed-500-100:::0004",
+        "squad-doc-009:::fixed-500-100:::0000",
+        "squad-doc-020:::fixed-500-100:::0000",
+        "squad-doc-015:::fixed-500-100:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "30,000 m",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de15104396321400ee25b7",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-012:::fixed-500-100:::0001",
+        "squad-doc-007:::fixed-500-100:::0000",
+        "squad-doc-023:::fixed-500-100:::0000",
+        "squad-doc-003:::fixed-500-100:::0001",
+        "squad-doc-008:::fixed-500-100:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "Deabolis",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de15104396321400ee25b8",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-019:::fixed-500-100:::0000",
+        "squad-doc-020:::fixed-500-100:::0000",
+        "squad-doc-020:::fixed-500-100:::0001",
+        "squad-doc-019:::fixed-500-100:::0001",
+        "squad-doc-020:::fixed-500-100:::0002"
+      ],
+      "recall": 0.0,
+      "answer": "Duncan",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de15104396321400ee25b9",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-012:::fixed-500-100:::0000",
+        "squad-doc-003:::fixed-500-100:::0001",
+        "squad-doc-003:::fixed-500-100:::0002",
+        "squad-doc-022:::fixed-500-100:::0001",
+        "squad-doc-011:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Deabolis",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de1563cffd8e1900b4b5c2",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-013:::fixed-500-100:::0000",
+        "squad-doc-011:::fixed-500-100:::0003",
+        "squad-doc-011:::fixed-500-100:::0004",
+        "squad-doc-012:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "1185",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de1563cffd8e1900b4b5c3",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-013:::fixed-500-100:::0000",
+        "squad-doc-016:::fixed-500-100:::0001",
+        "squad-doc-011:::fixed-500-100:::0001",
+        "squad-doc-011:::fixed-500-100:::0002",
+        "squad-doc-010:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Dyrrachium",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de1563cffd8e1900b4b5c4",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-013:::fixed-500-100:::0000",
+        "squad-doc-011:::fixed-500-100:::0003",
+        "squad-doc-011:::fixed-500-100:::0004",
+        "squad-doc-010:::fixed-500-100:::0001",
+        "squad-doc-011:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "the Adriatic",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5c8",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-014:::fixed-500-100:::0000",
+        "squad-doc-019:::fixed-500-100:::0000",
+        "squad-doc-014:::fixed-500-100:::0001",
+        "squad-doc-020:::fixed-500-100:::0001",
+        "squad-doc-022:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Duke Richard II of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5c9",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-014:::fixed-500-100:::0000",
+        "squad-doc-014:::fixed-500-100:::0001",
+        "squad-doc-019:::fixed-500-100:::0000",
+        "squad-doc-020:::fixed-500-100:::0001",
+        "squad-doc-015:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Duke Richard II of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5ca",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-014:::fixed-500-100:::0001",
+        "squad-doc-014:::fixed-500-100:::0000",
+        "squad-doc-011:::fixed-500-100:::0004",
+        "squad-doc-019:::fixed-500-100:::0000",
+        "squad-doc-015:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5cb",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-014:::fixed-500-100:::0001",
+        "squad-doc-014:::fixed-500-100:::0000",
+        "squad-doc-015:::fixed-500-100:::0001",
+        "squad-doc-011:::fixed-500-100:::0004",
+        "squad-doc-023:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Sweyn Forkbeard",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de1645cffd8e1900b4b5d0",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-015:::fixed-500-100:::0000",
+        "squad-doc-021:::fixed-500-100:::0000",
+        "squad-doc-015:::fixed-500-100:::0001",
+        "squad-doc-020:::fixed-500-100:::0000",
+        "squad-doc-014:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Harthacnut",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de1645cffd8e1900b4b5d1",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-015:::fixed-500-100:::0000",
+        "squad-doc-014:::fixed-500-100:::0001",
+        "squad-doc-015:::fixed-500-100:::0001",
+        "squad-doc-021:::fixed-500-100:::0000",
+        "squad-doc-014:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "1041",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de1645cffd8e1900b4b5d2",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-015:::fixed-500-100:::0000",
+        "squad-doc-015:::fixed-500-100:::0001",
+        "squad-doc-021:::fixed-500-100:::0000",
+        "squad-doc-023:::fixed-500-100:::0000",
+        "squad-doc-023:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Robert of Jumi\u00e8ges",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c5",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-016:::fixed-500-100:::0000",
+        "squad-doc-015:::fixed-500-100:::0001",
+        "squad-doc-014:::fixed-500-100:::0001",
+        "squad-doc-021:::fixed-500-100:::0000",
+        "squad-doc-014:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Battle of Hastings",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c6",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-016:::fixed-500-100:::0000",
+        "squad-doc-015:::fixed-500-100:::0001",
+        "squad-doc-021:::fixed-500-100:::0000",
+        "squad-doc-014:::fixed-500-100:::0001",
+        "squad-doc-014:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Duke William II of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c7",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-001:::fixed-500-100:::0002",
+        "squad-doc-016:::fixed-500-100:::0000",
+        "squad-doc-023:::fixed-500-100:::0000",
+        "squad-doc-021:::fixed-500-100:::0000",
+        "squad-doc-022:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "1066",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c8",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-001:::fixed-500-100:::0000",
+        "squad-doc-016:::fixed-500-100:::0000",
+        "squad-doc-000:::fixed-500-100:::0000",
+        "squad-doc-023:::fixed-500-100:::0000",
+        "squad-doc-006:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Anglo-Saxons",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de1728cffd8e1900b4b5d7",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-017:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0000",
+        "squad-doc-002:::fixed-500-100:::0000",
+        "squad-doc-000:::fixed-500-100:::0001",
+        "squad-doc-005:::fixed-500-100:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "Anglo-Saxon",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de179dcffd8e1900b4b5da",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-018:::fixed-500-100:::0000",
+        "squad-doc-021:::fixed-500-100:::0000",
+        "squad-doc-016:::fixed-500-100:::0000",
+        "squad-doc-023:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "1169",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de179dcffd8e1900b4b5db",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-023:::fixed-500-100:::0000",
+        "squad-doc-016:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0002",
+        "squad-doc-018:::fixed-500-100:::0000",
+        "squad-doc-000:::fixed-500-100:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "Ireland",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de179dcffd8e1900b4b5dc",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-018:::fixed-500-100:::0000",
+        "squad-doc-018:::fixed-500-100:::0001",
+        "squad-doc-001:::fixed-500-100:::0000",
+        "squad-doc-000:::fixed-500-100:::0001",
+        "squad-doc-018:::fixed-500-100:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "Catholic orthodoxy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e0",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-014:::fixed-500-100:::0000",
+        "squad-doc-020:::fixed-500-100:::0001",
+        "squad-doc-016:::fixed-500-100:::0000",
+        "squad-doc-015:::fixed-500-100:::0001",
+        "squad-doc-014:::fixed-500-100:::0001"
+      ],
+      "recall": 0.0,
+      "answer": "Ethelred II",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e1",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-014:::fixed-500-100:::0000",
+        "squad-doc-015:::fixed-500-100:::0001",
+        "squad-doc-020:::fixed-500-100:::0001",
+        "squad-doc-019:::fixed-500-100:::0000",
+        "squad-doc-016:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "King Malcolm III",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e2",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-019:::fixed-500-100:::0000",
+        "squad-doc-019:::fixed-500-100:::0001",
+        "squad-doc-021:::fixed-500-100:::0000",
+        "squad-doc-016:::fixed-500-100:::0000",
+        "squad-doc-022:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "1072",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e3",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-019:::fixed-500-100:::0001",
+        "squad-doc-010:::fixed-500-100:::0001",
+        "squad-doc-019:::fixed-500-100:::0000",
+        "squad-doc-008:::fixed-500-100:::0000",
+        "squad-doc-011:::fixed-500-100:::0002"
+      ],
+      "recall": 0.0,
+      "answer": "Duncan",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3cd0cffd8e1900b4b6be",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-020:::fixed-500-100:::0000",
+        "squad-doc-011:::fixed-500-100:::0001",
+        "squad-doc-009:::fixed-500-100:::0001",
+        "squad-doc-010:::fixed-500-100:::0001",
+        "squad-doc-001:::fixed-500-100:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "Sybilla of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3cd0cffd8e1900b4b6bf",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-020:::fixed-500-100:::0000",
+        "squad-doc-020:::fixed-500-100:::0001",
+        "squad-doc-022:::fixed-500-100:::0001",
+        "squad-doc-020:::fixed-500-100:::0002",
+        "squad-doc-019:::fixed-500-100:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Normans",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3d594396321400ee26ca",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-015:::fixed-500-100:::0001",
+        "squad-doc-021:::fixed-500-100:::0000",
+        "squad-doc-015:::fixed-500-100:::0000",
+        "squad-doc-019:::fixed-500-100:::0001",
+        "squad-doc-019:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Hereford",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3d594396321400ee26cb",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-021:::fixed-500-100:::0000",
+        "squad-doc-015:::fixed-500-100:::0001",
+        "squad-doc-019:::fixed-500-100:::0001",
+        "squad-doc-019:::fixed-500-100:::0000",
+        "squad-doc-015:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "the Welsh",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3d594396321400ee26cc",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-015:::fixed-500-100:::0001",
+        "squad-doc-021:::fixed-500-100:::0000",
+        "squad-doc-019:::fixed-500-100:::0001",
+        "squad-doc-015:::fixed-500-100:::0000",
+        "squad-doc-019:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Edward",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3dbacffd8e1900b4b6d2",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-022:::fixed-500-100:::0000",
+        "squad-doc-023:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0000",
+        "squad-doc-001:::fixed-500-100:::0002",
+        "squad-doc-021:::fixed-500-100:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Wales",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de3e414396321400ee26d8",
+      "strategy": "fixed-500-100",
+      "retrieved_ids": [
+        "squad-doc-023:::fixed-500-100:::0000",
+        "squad-doc-023:::fixed-500-100:::0001",
+        "squad-doc-012:::fixed-500-100:::0001",
+        "squad-doc-010:::fixed-500-100:::0001",
+        "squad-doc-011:::fixed-500-100:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "1018",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56ddde6b9a695914005b9628",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-003:::semantic-0.5:::0001",
+        "squad-doc-003:::semantic-0.5:::0003",
+        "squad-doc-001:::semantic-0.5:::0002",
+        "squad-doc-000:::semantic-0.5:::0000",
+        "squad-doc-006:::semantic-0.5:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "France",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56ddde6b9a695914005b9629",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-000:::semantic-0.5:::0000",
+        "squad-doc-006:::semantic-0.5:::0001",
+        "squad-doc-003:::semantic-0.5:::0001",
+        "squad-doc-014:::semantic-0.5:::0000",
+        "squad-doc-006:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "10th and 11th centuries",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56ddde6b9a695914005b962a",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-000:::semantic-0.5:::0001",
+        "squad-doc-005:::semantic-0.5:::0000",
+        "squad-doc-004:::semantic-0.5:::0002",
+        "squad-doc-004:::semantic-0.5:::0001",
+        "squad-doc-002:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Denmark, Iceland and Norway",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56ddde6b9a695914005b962b",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-000:::semantic-0.5:::0001",
+        "squad-doc-004:::semantic-0.5:::0002",
+        "squad-doc-004:::semantic-0.5:::0001",
+        "squad-doc-002:::semantic-0.5:::0000",
+        "squad-doc-005:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Rollo",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56ddde6b9a695914005b962c",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-000:::semantic-0.5:::0003",
+        "squad-doc-018:::semantic-0.5:::0002",
+        "squad-doc-000:::semantic-0.5:::0000",
+        "squad-doc-001:::semantic-0.5:::0003",
+        "squad-doc-006:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "10th",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56dddf4066d3e219004dad5f",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-016:::semantic-0.5:::0000",
+        "squad-doc-001:::semantic-0.5:::0004",
+        "squad-doc-021:::semantic-0.5:::0001",
+        "squad-doc-015:::semantic-0.5:::0001",
+        "squad-doc-022:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "William II",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56dddf4066d3e219004dad60",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-001:::semantic-0.5:::0002",
+        "squad-doc-003:::semantic-0.5:::0001",
+        "squad-doc-003:::semantic-0.5:::0003",
+        "squad-doc-016:::semantic-0.5:::0000",
+        "squad-doc-000:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Richard I of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56dddf4066d3e219004dad61",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-001:::semantic-0.5:::0000",
+        "squad-doc-023:::semantic-0.5:::0000",
+        "squad-doc-000:::semantic-0.5:::0000",
+        "squad-doc-018:::semantic-0.5:::0002",
+        "squad-doc-014:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Catholic",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56dde0379a695914005b9636",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-002:::semantic-0.5:::0000",
+        "squad-doc-000:::semantic-0.5:::0000",
+        "squad-doc-018:::semantic-0.5:::0002",
+        "squad-doc-017:::semantic-0.5:::0000",
+        "squad-doc-018:::semantic-0.5:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "Norseman, Viking",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56dde0379a695914005b9637",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-002:::semantic-0.5:::0000",
+        "squad-doc-000:::semantic-0.5:::0000",
+        "squad-doc-017:::semantic-0.5:::0000",
+        "squad-doc-001:::semantic-0.5:::0001",
+        "squad-doc-018:::semantic-0.5:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "9th century",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56dde0ba66d3e219004dad75",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-003:::semantic-0.5:::0001",
+        "squad-doc-001:::semantic-0.5:::0002",
+        "squad-doc-003:::semantic-0.5:::0003",
+        "squad-doc-000:::semantic-0.5:::0000",
+        "squad-doc-001:::semantic-0.5:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "911",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56dde0ba66d3e219004dad76",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-003:::semantic-0.5:::0002",
+        "squad-doc-004:::semantic-0.5:::0002",
+        "squad-doc-003:::semantic-0.5:::0001",
+        "squad-doc-004:::semantic-0.5:::0000",
+        "squad-doc-005:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "King Charles III of West Francia",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56dde0ba66d3e219004dad77",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-003:::semantic-0.5:::0003",
+        "squad-doc-001:::semantic-0.5:::0002",
+        "squad-doc-003:::semantic-0.5:::0001",
+        "squad-doc-003:::semantic-0.5:::0000",
+        "squad-doc-001:::semantic-0.5:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "river Seine",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56dde1d966d3e219004dad8d",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-004:::semantic-0.5:::0001",
+        "squad-doc-000:::semantic-0.5:::0001",
+        "squad-doc-004:::semantic-0.5:::0002",
+        "squad-doc-002:::semantic-0.5:::0000",
+        "squad-doc-014:::semantic-0.5:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "Rollo",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56dde27d9a695914005b9651",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-023:::semantic-0.5:::0000",
+        "squad-doc-001:::semantic-0.5:::0000",
+        "squad-doc-018:::semantic-0.5:::0002",
+        "squad-doc-000:::semantic-0.5:::0000",
+        "squad-doc-001:::semantic-0.5:::0003"
+      ],
+      "recall": 0.0,
+      "answer": "Christian",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56dde27d9a695914005b9652",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-000:::semantic-0.5:::0000",
+        "squad-doc-006:::semantic-0.5:::0000",
+        "squad-doc-007:::semantic-0.5:::0002",
+        "squad-doc-018:::semantic-0.5:::0003",
+        "squad-doc-014:::semantic-0.5:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56dde2fa66d3e219004dad9b",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-006:::semantic-0.5:::0001",
+        "squad-doc-014:::semantic-0.5:::0000",
+        "squad-doc-001:::semantic-0.5:::0003",
+        "squad-doc-021:::semantic-0.5:::0000",
+        "squad-doc-001:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "fighting horsemen",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de0f6a4396321400ee257f",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-007:::semantic-0.5:::0000",
+        "squad-doc-010:::semantic-0.5:::0000",
+        "squad-doc-007:::semantic-0.5:::0002",
+        "squad-doc-008:::semantic-0.5:::0000",
+        "squad-doc-009:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Pechenegs",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de0ffd4396321400ee258d",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-008:::semantic-0.5:::0000",
+        "squad-doc-010:::semantic-0.5:::0000",
+        "squad-doc-011:::semantic-0.5:::0002",
+        "squad-doc-007:::semantic-0.5:::0000",
+        "squad-doc-011:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "1050s",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de0ffd4396321400ee258e",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-008:::semantic-0.5:::0002",
+        "squad-doc-009:::semantic-0.5:::0000",
+        "squad-doc-009:::semantic-0.5:::0003",
+        "squad-doc-011:::semantic-0.5:::0000",
+        "squad-doc-008:::semantic-0.5:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "1060s",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de0ffd4396321400ee258f",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-008:::semantic-0.5:::0003",
+        "squad-doc-012:::semantic-0.5:::0004",
+        "squad-doc-023:::semantic-0.5:::0002",
+        "squad-doc-008:::semantic-0.5:::0001",
+        "squad-doc-011:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Alexius Komnenos",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de10b44396321400ee2593",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-018:::semantic-0.5:::0000",
+        "squad-doc-018:::semantic-0.5:::0002",
+        "squad-doc-021:::semantic-0.5:::0000",
+        "squad-doc-000:::semantic-0.5:::0000",
+        "squad-doc-001:::semantic-0.5:::0003"
+      ],
+      "recall": 0.0,
+      "answer": "Dublin Castle",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de10b44396321400ee2594",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-009:::semantic-0.5:::0002",
+        "squad-doc-007:::semantic-0.5:::0002",
+        "squad-doc-007:::semantic-0.5:::0000",
+        "squad-doc-009:::semantic-0.5:::0004",
+        "squad-doc-008:::semantic-0.5:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Oursel",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de10b44396321400ee2595",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-009:::semantic-0.5:::0000",
+        "squad-doc-008:::semantic-0.5:::0002",
+        "squad-doc-007:::semantic-0.5:::0000",
+        "squad-doc-010:::semantic-0.5:::0000",
+        "squad-doc-023:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Turkish forces",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de11154396321400ee25aa",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-010:::semantic-0.5:::0001",
+        "squad-doc-023:::semantic-0.5:::0001",
+        "squad-doc-010:::semantic-0.5:::0000",
+        "squad-doc-007:::semantic-0.5:::0002",
+        "squad-doc-006:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "an Italo-Norman named Raoul",
+      "n_claims": 1,
+      "n_supported": 1,
+      "faithfulness": 1.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de148dcffd8e1900b4b5bc",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-011:::semantic-0.5:::0000",
+        "squad-doc-023:::semantic-0.5:::0001",
+        "squad-doc-007:::semantic-0.5:::0001",
+        "squad-doc-011:::semantic-0.5:::0001",
+        "squad-doc-010:::semantic-0.5:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Robert Guiscard",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de148dcffd8e1900b4b5bd",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-011:::semantic-0.5:::0006",
+        "squad-doc-013:::semantic-0.5:::0000",
+        "squad-doc-012:::semantic-0.5:::0000",
+        "squad-doc-011:::semantic-0.5:::0009",
+        "squad-doc-021:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "February 1082",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de148dcffd8e1900b4b5be",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-009:::semantic-0.5:::0003",
+        "squad-doc-011:::semantic-0.5:::0009",
+        "squad-doc-012:::semantic-0.5:::0000",
+        "squad-doc-008:::semantic-0.5:::0001",
+        "squad-doc-019:::semantic-0.5:::0001"
+      ],
+      "recall": 0.0,
+      "answer": "20,000",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de15104396321400ee25b7",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-007:::semantic-0.5:::0000",
+        "squad-doc-012:::semantic-0.5:::0002",
+        "squad-doc-023:::semantic-0.5:::0000",
+        "squad-doc-011:::semantic-0.5:::0002",
+        "squad-doc-009:::semantic-0.5:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "Antioch",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de15104396321400ee25b8",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-011:::semantic-0.5:::0009",
+        "squad-doc-019:::semantic-0.5:::0000",
+        "squad-doc-020:::semantic-0.5:::0000",
+        "squad-doc-019:::semantic-0.5:::0002",
+        "squad-doc-012:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Bohemond",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de15104396321400ee25b9",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-012:::semantic-0.5:::0001",
+        "squad-doc-009:::semantic-0.5:::0001",
+        "squad-doc-003:::semantic-0.5:::0004",
+        "squad-doc-004:::semantic-0.5:::0001",
+        "squad-doc-023:::semantic-0.5:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Deabolis",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de1563cffd8e1900b4b5c2",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-013:::semantic-0.5:::0000",
+        "squad-doc-012:::semantic-0.5:::0000",
+        "squad-doc-011:::semantic-0.5:::0006",
+        "squad-doc-021:::semantic-0.5:::0000",
+        "squad-doc-011:::semantic-0.5:::0009"
+      ],
+      "recall": 1.0,
+      "answer": "1185",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de1563cffd8e1900b4b5c3",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-011:::semantic-0.5:::0004",
+        "squad-doc-011:::semantic-0.5:::0001",
+        "squad-doc-012:::semantic-0.5:::0000",
+        "squad-doc-013:::semantic-0.5:::0000",
+        "squad-doc-012:::semantic-0.5:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Dyrrachium",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de1563cffd8e1900b4b5c4",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-013:::semantic-0.5:::0000",
+        "squad-doc-011:::semantic-0.5:::0006",
+        "squad-doc-011:::semantic-0.5:::0009",
+        "squad-doc-012:::semantic-0.5:::0000",
+        "squad-doc-011:::semantic-0.5:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "the Adriatic",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5c8",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-014:::semantic-0.5:::0001",
+        "squad-doc-019:::semantic-0.5:::0000",
+        "squad-doc-019:::semantic-0.5:::0001",
+        "squad-doc-014:::semantic-0.5:::0002",
+        "squad-doc-015:::semantic-0.5:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "Duke Richard II of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5c9",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-014:::semantic-0.5:::0001",
+        "squad-doc-019:::semantic-0.5:::0000",
+        "squad-doc-015:::semantic-0.5:::0004",
+        "squad-doc-014:::semantic-0.5:::0002",
+        "squad-doc-020:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Duke Richard II of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5ca",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-014:::semantic-0.5:::0002",
+        "squad-doc-014:::semantic-0.5:::0001",
+        "squad-doc-011:::semantic-0.5:::0009",
+        "squad-doc-019:::semantic-0.5:::0000",
+        "squad-doc-011:::semantic-0.5:::0007"
+      ],
+      "recall": 1.0,
+      "answer": "Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5cb",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-014:::semantic-0.5:::0002",
+        "squad-doc-011:::semantic-0.5:::0009",
+        "squad-doc-014:::semantic-0.5:::0001",
+        "squad-doc-015:::semantic-0.5:::0004",
+        "squad-doc-019:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Sweyn Forkbeard",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de1645cffd8e1900b4b5d0",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-015:::semantic-0.5:::0000",
+        "squad-doc-021:::semantic-0.5:::0001",
+        "squad-doc-015:::semantic-0.5:::0002",
+        "squad-doc-014:::semantic-0.5:::0001",
+        "squad-doc-020:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Harthacnut",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de1645cffd8e1900b4b5d1",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-015:::semantic-0.5:::0000",
+        "squad-doc-015:::semantic-0.5:::0002",
+        "squad-doc-014:::semantic-0.5:::0002",
+        "squad-doc-021:::semantic-0.5:::0001",
+        "squad-doc-019:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "1041",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de1645cffd8e1900b4b5d2",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-015:::semantic-0.5:::0003",
+        "squad-doc-021:::semantic-0.5:::0001",
+        "squad-doc-015:::semantic-0.5:::0000",
+        "squad-doc-015:::semantic-0.5:::0002",
+        "squad-doc-006:::semantic-0.5:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "Robert of Jumi\u00e8ges",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c5",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-016:::semantic-0.5:::0000",
+        "squad-doc-014:::semantic-0.5:::0002",
+        "squad-doc-015:::semantic-0.5:::0004",
+        "squad-doc-011:::semantic-0.5:::0009",
+        "squad-doc-015:::semantic-0.5:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "Battle of Hastings",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c6",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-016:::semantic-0.5:::0000",
+        "squad-doc-021:::semantic-0.5:::0001",
+        "squad-doc-015:::semantic-0.5:::0004",
+        "squad-doc-011:::semantic-0.5:::0009",
+        "squad-doc-014:::semantic-0.5:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "Duke William II of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c7",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-016:::semantic-0.5:::0000",
+        "squad-doc-001:::semantic-0.5:::0004",
+        "squad-doc-012:::semantic-0.5:::0000",
+        "squad-doc-015:::semantic-0.5:::0001",
+        "squad-doc-023:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "1066",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c8",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-018:::semantic-0.5:::0002",
+        "squad-doc-023:::semantic-0.5:::0000",
+        "squad-doc-001:::semantic-0.5:::0000",
+        "squad-doc-016:::semantic-0.5:::0001",
+        "squad-doc-006:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Anglo-Saxons",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de1728cffd8e1900b4b5d7",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-017:::semantic-0.5:::0000",
+        "squad-doc-001:::semantic-0.5:::0001",
+        "squad-doc-022:::semantic-0.5:::0001",
+        "squad-doc-002:::semantic-0.5:::0000",
+        "squad-doc-021:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Modern English",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de179dcffd8e1900b4b5da",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-018:::semantic-0.5:::0000",
+        "squad-doc-014:::semantic-0.5:::0000",
+        "squad-doc-021:::semantic-0.5:::0000",
+        "squad-doc-022:::semantic-0.5:::0001",
+        "squad-doc-023:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "1169",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de179dcffd8e1900b4b5db",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-021:::semantic-0.5:::0000",
+        "squad-doc-014:::semantic-0.5:::0000",
+        "squad-doc-023:::semantic-0.5:::0000",
+        "squad-doc-000:::semantic-0.5:::0000",
+        "squad-doc-001:::semantic-0.5:::0004"
+      ],
+      "recall": 0.0,
+      "answer": "unanswerable",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de179dcffd8e1900b4b5dc",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-018:::semantic-0.5:::0000",
+        "squad-doc-018:::semantic-0.5:::0003",
+        "squad-doc-001:::semantic-0.5:::0000",
+        "squad-doc-014:::semantic-0.5:::0000",
+        "squad-doc-021:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "Catholic",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e0",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-019:::semantic-0.5:::0000",
+        "squad-doc-014:::semantic-0.5:::0001",
+        "squad-doc-016:::semantic-0.5:::0000",
+        "squad-doc-011:::semantic-0.5:::0009",
+        "squad-doc-018:::semantic-0.5:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "King Malcolm III of Scotland",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e1",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-019:::semantic-0.5:::0000",
+        "squad-doc-014:::semantic-0.5:::0001",
+        "squad-doc-016:::semantic-0.5:::0000",
+        "squad-doc-011:::semantic-0.5:::0009",
+        "squad-doc-015:::semantic-0.5:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "King Malcolm III",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e2",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-019:::semantic-0.5:::0001",
+        "squad-doc-019:::semantic-0.5:::0000",
+        "squad-doc-016:::semantic-0.5:::0000",
+        "squad-doc-019:::semantic-0.5:::0002",
+        "squad-doc-021:::semantic-0.5:::0000"
+      ],
+      "recall": 1.0,
+      "answer": "1072",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e3",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-019:::semantic-0.5:::0002",
+        "squad-doc-008:::semantic-0.5:::0003",
+        "squad-doc-008:::semantic-0.5:::0001",
+        "squad-doc-008:::semantic-0.5:::0000",
+        "squad-doc-000:::semantic-0.5:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Duncan",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3cd0cffd8e1900b4b6be",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-014:::semantic-0.5:::0001",
+        "squad-doc-020:::semantic-0.5:::0000",
+        "squad-doc-019:::semantic-0.5:::0000",
+        "squad-doc-011:::semantic-0.5:::0002",
+        "squad-doc-009:::semantic-0.5:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "Sybilla of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3cd0cffd8e1900b4b6bf",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-020:::semantic-0.5:::0000",
+        "squad-doc-020:::semantic-0.5:::0003",
+        "squad-doc-019:::semantic-0.5:::0001",
+        "squad-doc-021:::semantic-0.5:::0000",
+        "squad-doc-019:::semantic-0.5:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "Normans",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3d594396321400ee26ca",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-015:::semantic-0.5:::0003",
+        "squad-doc-021:::semantic-0.5:::0001",
+        "squad-doc-016:::semantic-0.5:::0000",
+        "squad-doc-019:::semantic-0.5:::0000",
+        "squad-doc-019:::semantic-0.5:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "Hereford",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3d594396321400ee26cb",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-021:::semantic-0.5:::0001",
+        "squad-doc-015:::semantic-0.5:::0003",
+        "squad-doc-019:::semantic-0.5:::0002",
+        "squad-doc-016:::semantic-0.5:::0000",
+        "squad-doc-020:::semantic-0.5:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Welsh",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3d594396321400ee26cc",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-015:::semantic-0.5:::0003",
+        "squad-doc-021:::semantic-0.5:::0001",
+        "squad-doc-016:::semantic-0.5:::0000",
+        "squad-doc-019:::semantic-0.5:::0002",
+        "squad-doc-000:::semantic-0.5:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Edward the Confessor",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3dbacffd8e1900b4b6d2",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-016:::semantic-0.5:::0001",
+        "squad-doc-001:::semantic-0.5:::0004",
+        "squad-doc-022:::semantic-0.5:::0000",
+        "squad-doc-023:::semantic-0.5:::0000",
+        "squad-doc-001:::semantic-0.5:::0000"
+      ],
+      "recall": 0.0,
+      "answer": "England",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3e414396321400ee26d8",
+      "strategy": "semantic-0.5",
+      "retrieved_ids": [
+        "squad-doc-023:::semantic-0.5:::0002",
+        "squad-doc-012:::semantic-0.5:::0004",
+        "squad-doc-018:::semantic-0.5:::0005",
+        "squad-doc-008:::semantic-0.5:::0001",
+        "squad-doc-003:::semantic-0.5:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "1018",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56ddde6b9a695914005b9628",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-003:::hierarchical-250-1000:::0005",
+        "squad-doc-001:::hierarchical-250-1000:::0007",
+        "squad-doc-000:::hierarchical-250-1000:::0004",
+        "squad-doc-006:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "France",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56ddde6b9a695914005b9629",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-000:::hierarchical-250-1000:::0004",
+        "squad-doc-006:::hierarchical-250-1000:::0004",
+        "squad-doc-003:::hierarchical-250-1000:::0005",
+        "squad-doc-014:::hierarchical-250-1000:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "10th and 11th centuries",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56ddde6b9a695914005b962a",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-000:::hierarchical-250-1000:::0004",
+        "squad-doc-005:::hierarchical-250-1000:::0002",
+        "squad-doc-004:::hierarchical-250-1000:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "Denmark, Iceland and Norway",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56ddde6b9a695914005b962b",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-000:::hierarchical-250-1000:::0004",
+        "squad-doc-004:::hierarchical-250-1000:::0003",
+        "squad-doc-005:::hierarchical-250-1000:::0002",
+        "squad-doc-002:::hierarchical-250-1000:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Rollo",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56ddde6b9a695914005b962c",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-000:::hierarchical-250-1000:::0004",
+        "squad-doc-017:::hierarchical-250-1000:::0004",
+        "squad-doc-018:::hierarchical-250-1000:::0006",
+        "squad-doc-020:::hierarchical-250-1000:::0005"
+      ],
+      "recall": 1.0,
+      "answer": "10th",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dddf4066d3e219004dad5f",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-016:::hierarchical-250-1000:::0003",
+        "squad-doc-021:::hierarchical-250-1000:::0002",
+        "squad-doc-001:::hierarchical-250-1000:::0008",
+        "squad-doc-022:::hierarchical-250-1000:::0002",
+        "squad-doc-015:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "William II",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dddf4066d3e219004dad60",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-001:::hierarchical-250-1000:::0007",
+        "squad-doc-003:::hierarchical-250-1000:::0005",
+        "squad-doc-016:::hierarchical-250-1000:::0003",
+        "squad-doc-000:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "Richard I",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dddf4066d3e219004dad61",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-001:::hierarchical-250-1000:::0007",
+        "squad-doc-023:::hierarchical-250-1000:::0002",
+        "squad-doc-000:::hierarchical-250-1000:::0004",
+        "squad-doc-017:::hierarchical-250-1000:::0004",
+        "squad-doc-014:::hierarchical-250-1000:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "Catholic",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde0379a695914005b9636",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-002:::hierarchical-250-1000:::0001",
+        "squad-doc-000:::hierarchical-250-1000:::0004",
+        "squad-doc-017:::hierarchical-250-1000:::0004",
+        "squad-doc-018:::hierarchical-250-1000:::0007",
+        "squad-doc-001:::hierarchical-250-1000:::0007"
+      ],
+      "recall": 1.0,
+      "answer": "Norseman, Viking",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde0379a695914005b9637",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-002:::hierarchical-250-1000:::0001",
+        "squad-doc-000:::hierarchical-250-1000:::0004",
+        "squad-doc-017:::hierarchical-250-1000:::0004",
+        "squad-doc-001:::hierarchical-250-1000:::0007"
+      ],
+      "recall": 1.0,
+      "answer": "9th century",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde0ba66d3e219004dad75",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-003:::hierarchical-250-1000:::0005",
+        "squad-doc-001:::hierarchical-250-1000:::0007",
+        "squad-doc-001:::hierarchical-250-1000:::0008",
+        "squad-doc-006:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "911",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde0ba66d3e219004dad76",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-003:::hierarchical-250-1000:::0005",
+        "squad-doc-004:::hierarchical-250-1000:::0003",
+        "squad-doc-005:::hierarchical-250-1000:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "King Charles III of West Francia",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde0ba66d3e219004dad77",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-003:::hierarchical-250-1000:::0005",
+        "squad-doc-001:::hierarchical-250-1000:::0007",
+        "squad-doc-001:::hierarchical-250-1000:::0008"
+      ],
+      "recall": 1.0,
+      "answer": "Epte",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde1d966d3e219004dad8d",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-004:::hierarchical-250-1000:::0003",
+        "squad-doc-000:::hierarchical-250-1000:::0004",
+        "squad-doc-005:::hierarchical-250-1000:::0002",
+        "squad-doc-002:::hierarchical-250-1000:::0001"
+      ],
+      "recall": 1.0,
+      "answer": "Rollo",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde27d9a695914005b9651",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-001:::hierarchical-250-1000:::0007",
+        "squad-doc-023:::hierarchical-250-1000:::0002",
+        "squad-doc-000:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 0.0,
+      "answer": "Christian",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde27d9a695914005b9652",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-000:::hierarchical-250-1000:::0004",
+        "squad-doc-006:::hierarchical-250-1000:::0004",
+        "squad-doc-007:::hierarchical-250-1000:::0005",
+        "squad-doc-018:::hierarchical-250-1000:::0006",
+        "squad-doc-014:::hierarchical-250-1000:::0003"
+      ],
+      "recall": 0.0,
+      "answer": "Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56dde2fa66d3e219004dad9b",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-006:::hierarchical-250-1000:::0004",
+        "squad-doc-001:::hierarchical-250-1000:::0007",
+        "squad-doc-014:::hierarchical-250-1000:::0003",
+        "squad-doc-020:::hierarchical-250-1000:::0005"
+      ],
+      "recall": 1.0,
+      "answer": "fighting horsemen",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de0f6a4396321400ee257f",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-007:::hierarchical-250-1000:::0005",
+        "squad-doc-010:::hierarchical-250-1000:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "Pechenegs",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de0ffd4396321400ee258d",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-008:::hierarchical-250-1000:::0003",
+        "squad-doc-011:::hierarchical-250-1000:::0010",
+        "squad-doc-010:::hierarchical-250-1000:::0002",
+        "squad-doc-013:::hierarchical-250-1000:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "1050s",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de0ffd4396321400ee258e",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-008:::hierarchical-250-1000:::0003",
+        "squad-doc-009:::hierarchical-250-1000:::0003",
+        "squad-doc-011:::hierarchical-250-1000:::0010",
+        "squad-doc-011:::hierarchical-250-1000:::0011"
+      ],
+      "recall": 1.0,
+      "answer": "1060s",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de0ffd4396321400ee258f",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-008:::hierarchical-250-1000:::0003",
+        "squad-doc-012:::hierarchical-250-1000:::0004",
+        "squad-doc-023:::hierarchical-250-1000:::0002",
+        "squad-doc-011:::hierarchical-250-1000:::0010",
+        "squad-doc-009:::hierarchical-250-1000:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "Alexius Komnenos",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de10b44396321400ee2593",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-018:::hierarchical-250-1000:::0006",
+        "squad-doc-020:::hierarchical-250-1000:::0005",
+        "squad-doc-001:::hierarchical-250-1000:::0007",
+        "squad-doc-000:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 0.0,
+      "answer": "Trim Castle",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de10b44396321400ee2594",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-009:::hierarchical-250-1000:::0003",
+        "squad-doc-007:::hierarchical-250-1000:::0005",
+        "squad-doc-006:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "Oursel",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de10b44396321400ee2595",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-009:::hierarchical-250-1000:::0003",
+        "squad-doc-008:::hierarchical-250-1000:::0003",
+        "squad-doc-023:::hierarchical-250-1000:::0002",
+        "squad-doc-007:::hierarchical-250-1000:::0005"
+      ],
+      "recall": 1.0,
+      "answer": "Turkish forces",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de11154396321400ee25aa",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-010:::hierarchical-250-1000:::0002",
+        "squad-doc-007:::hierarchical-250-1000:::0005",
+        "squad-doc-008:::hierarchical-250-1000:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "Norman mercenary origin",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de148dcffd8e1900b4b5bc",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-011:::hierarchical-250-1000:::0010",
+        "squad-doc-011:::hierarchical-250-1000:::0011",
+        "squad-doc-007:::hierarchical-250-1000:::0005",
+        "squad-doc-010:::hierarchical-250-1000:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "Robert Guiscard",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de148dcffd8e1900b4b5bd",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-011:::hierarchical-250-1000:::0011",
+        "squad-doc-013:::hierarchical-250-1000:::0002",
+        "squad-doc-012:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "February 1082",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de148dcffd8e1900b4b5be",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-012:::hierarchical-250-1000:::0004",
+        "squad-doc-009:::hierarchical-250-1000:::0003",
+        "squad-doc-011:::hierarchical-250-1000:::0011",
+        "squad-doc-020:::hierarchical-250-1000:::0005",
+        "squad-doc-019:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 0.0,
+      "answer": "20,000",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de15104396321400ee25b7",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-007:::hierarchical-250-1000:::0005",
+        "squad-doc-023:::hierarchical-250-1000:::0002",
+        "squad-doc-011:::hierarchical-250-1000:::0010",
+        "squad-doc-012:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "Sicily",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de15104396321400ee25b8",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-011:::hierarchical-250-1000:::0010",
+        "squad-doc-020:::hierarchical-250-1000:::0005",
+        "squad-doc-019:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 0.0,
+      "answer": "Edgar Atheling",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de15104396321400ee25b9",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-012:::hierarchical-250-1000:::0004",
+        "squad-doc-011:::hierarchical-250-1000:::0010",
+        "squad-doc-003:::hierarchical-250-1000:::0005",
+        "squad-doc-004:::hierarchical-250-1000:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "Deabolis",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de1563cffd8e1900b4b5c2",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-013:::hierarchical-250-1000:::0002",
+        "squad-doc-012:::hierarchical-250-1000:::0004",
+        "squad-doc-011:::hierarchical-250-1000:::0011",
+        "squad-doc-011:::hierarchical-250-1000:::0010"
+      ],
+      "recall": 1.0,
+      "answer": "1185",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de1563cffd8e1900b4b5c3",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-013:::hierarchical-250-1000:::0002",
+        "squad-doc-011:::hierarchical-250-1000:::0010",
+        "squad-doc-012:::hierarchical-250-1000:::0004",
+        "squad-doc-011:::hierarchical-250-1000:::0011"
+      ],
+      "recall": 1.0,
+      "answer": "Dyrrachium",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de1563cffd8e1900b4b5c4",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-013:::hierarchical-250-1000:::0002",
+        "squad-doc-011:::hierarchical-250-1000:::0011",
+        "squad-doc-011:::hierarchical-250-1000:::0010",
+        "squad-doc-012:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "the Adriatic",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5c8",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-014:::hierarchical-250-1000:::0003",
+        "squad-doc-020:::hierarchical-250-1000:::0005",
+        "squad-doc-019:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "Duke Richard II of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5c9",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-014:::hierarchical-250-1000:::0003",
+        "squad-doc-020:::hierarchical-250-1000:::0005",
+        "squad-doc-019:::hierarchical-250-1000:::0004",
+        "squad-doc-015:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "Duke Richard II of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5ca",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-014:::hierarchical-250-1000:::0003",
+        "squad-doc-019:::hierarchical-250-1000:::0004",
+        "squad-doc-011:::hierarchical-250-1000:::0011"
+      ],
+      "recall": 1.0,
+      "answer": "Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de15dbcffd8e1900b4b5cb",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-014:::hierarchical-250-1000:::0003",
+        "squad-doc-011:::hierarchical-250-1000:::0011",
+        "squad-doc-015:::hierarchical-250-1000:::0004",
+        "squad-doc-019:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "Sweyn Forkbeard",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de1645cffd8e1900b4b5d0",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-015:::hierarchical-250-1000:::0004",
+        "squad-doc-021:::hierarchical-250-1000:::0002",
+        "squad-doc-020:::hierarchical-250-1000:::0005",
+        "squad-doc-014:::hierarchical-250-1000:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "Harthacnut",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de1645cffd8e1900b4b5d1",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-015:::hierarchical-250-1000:::0004",
+        "squad-doc-014:::hierarchical-250-1000:::0003",
+        "squad-doc-021:::hierarchical-250-1000:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "1041",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de1645cffd8e1900b4b5d2",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-015:::hierarchical-250-1000:::0004",
+        "squad-doc-021:::hierarchical-250-1000:::0002",
+        "squad-doc-006:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "Robert of Jumi\u00e8ges",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c5",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-016:::hierarchical-250-1000:::0003",
+        "squad-doc-014:::hierarchical-250-1000:::0003",
+        "squad-doc-015:::hierarchical-250-1000:::0004",
+        "squad-doc-011:::hierarchical-250-1000:::0011"
+      ],
+      "recall": 1.0,
+      "answer": "Battle of Hastings",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c6",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-016:::hierarchical-250-1000:::0003",
+        "squad-doc-021:::hierarchical-250-1000:::0002",
+        "squad-doc-015:::hierarchical-250-1000:::0004",
+        "squad-doc-011:::hierarchical-250-1000:::0011",
+        "squad-doc-014:::hierarchical-250-1000:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "Duke William II of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c7",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-016:::hierarchical-250-1000:::0003",
+        "squad-doc-001:::hierarchical-250-1000:::0008",
+        "squad-doc-021:::hierarchical-250-1000:::0002",
+        "squad-doc-012:::hierarchical-250-1000:::0004",
+        "squad-doc-022:::hierarchical-250-1000:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "1066",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de16ca4396321400ee25c8",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-023:::hierarchical-250-1000:::0002",
+        "squad-doc-016:::hierarchical-250-1000:::0003",
+        "squad-doc-001:::hierarchical-250-1000:::0007",
+        "squad-doc-020:::hierarchical-250-1000:::0005"
+      ],
+      "recall": 1.0,
+      "answer": "Anglo-Saxons",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de1728cffd8e1900b4b5d7",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-017:::hierarchical-250-1000:::0004",
+        "squad-doc-005:::hierarchical-250-1000:::0002",
+        "squad-doc-001:::hierarchical-250-1000:::0007"
+      ],
+      "recall": 1.0,
+      "answer": "Modern English",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de179dcffd8e1900b4b5da",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-018:::hierarchical-250-1000:::0006",
+        "squad-doc-014:::hierarchical-250-1000:::0003",
+        "squad-doc-016:::hierarchical-250-1000:::0003",
+        "squad-doc-023:::hierarchical-250-1000:::0002",
+        "squad-doc-021:::hierarchical-250-1000:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "1169",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de179dcffd8e1900b4b5db",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-016:::hierarchical-250-1000:::0003",
+        "squad-doc-023:::hierarchical-250-1000:::0002",
+        "squad-doc-014:::hierarchical-250-1000:::0003",
+        "squad-doc-018:::hierarchical-250-1000:::0006",
+        "squad-doc-000:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "Ireland",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de179dcffd8e1900b4b5dc",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-018:::hierarchical-250-1000:::0006",
+        "squad-doc-017:::hierarchical-250-1000:::0004",
+        "squad-doc-001:::hierarchical-250-1000:::0007"
+      ],
+      "recall": 1.0,
+      "answer": "natives",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e0",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-019:::hierarchical-250-1000:::0004",
+        "squad-doc-014:::hierarchical-250-1000:::0003",
+        "squad-doc-020:::hierarchical-250-1000:::0005",
+        "squad-doc-016:::hierarchical-250-1000:::0003",
+        "squad-doc-018:::hierarchical-250-1000:::0007"
+      ],
+      "recall": 1.0,
+      "answer": "Edgar Atheling",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e1",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-019:::hierarchical-250-1000:::0004",
+        "squad-doc-014:::hierarchical-250-1000:::0003",
+        "squad-doc-020:::hierarchical-250-1000:::0005",
+        "squad-doc-016:::hierarchical-250-1000:::0003",
+        "squad-doc-018:::hierarchical-250-1000:::0007"
+      ],
+      "recall": 1.0,
+      "answer": "King Malcolm III",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e2",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-019:::hierarchical-250-1000:::0004",
+        "squad-doc-016:::hierarchical-250-1000:::0003",
+        "squad-doc-020:::hierarchical-250-1000:::0005",
+        "squad-doc-021:::hierarchical-250-1000:::0002"
+      ],
+      "recall": 1.0,
+      "answer": "1072",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de17f9cffd8e1900b4b5e3",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-019:::hierarchical-250-1000:::0004",
+        "squad-doc-008:::hierarchical-250-1000:::0003",
+        "squad-doc-011:::hierarchical-250-1000:::0010",
+        "squad-doc-000:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "Duncan",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de3cd0cffd8e1900b4b6be",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-020:::hierarchical-250-1000:::0005",
+        "squad-doc-014:::hierarchical-250-1000:::0003",
+        "squad-doc-011:::hierarchical-250-1000:::0010",
+        "squad-doc-009:::hierarchical-250-1000:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "Sybilla of Normandy",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de3cd0cffd8e1900b4b6bf",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-020:::hierarchical-250-1000:::0005",
+        "squad-doc-020:::hierarchical-250-1000:::0006"
+      ],
+      "recall": 1.0,
+      "answer": "Normans",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3d594396321400ee26ca",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-015:::hierarchical-250-1000:::0004",
+        "squad-doc-021:::hierarchical-250-1000:::0002",
+        "squad-doc-019:::hierarchical-250-1000:::0004"
+      ],
+      "recall": 1.0,
+      "answer": "Hereford",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": false
+    },
+    {
+      "question_id": "56de3d594396321400ee26cb",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-021:::hierarchical-250-1000:::0002",
+        "squad-doc-015:::hierarchical-250-1000:::0004",
+        "squad-doc-019:::hierarchical-250-1000:::0004",
+        "squad-doc-016:::hierarchical-250-1000:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "the Welsh",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de3d594396321400ee26cc",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-015:::hierarchical-250-1000:::0004",
+        "squad-doc-021:::hierarchical-250-1000:::0002",
+        "squad-doc-019:::hierarchical-250-1000:::0004",
+        "squad-doc-016:::hierarchical-250-1000:::0003"
+      ],
+      "recall": 1.0,
+      "answer": "Edward the Confessor",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de3dbacffd8e1900b4b6d2",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-001:::hierarchical-250-1000:::0007",
+        "squad-doc-020:::hierarchical-250-1000:::0005",
+        "squad-doc-022:::hierarchical-250-1000:::0002",
+        "squad-doc-023:::hierarchical-250-1000:::0002",
+        "squad-doc-001:::hierarchical-250-1000:::0008"
+      ],
+      "recall": 1.0,
+      "answer": "Scotland",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    },
+    {
+      "question_id": "56de3e414396321400ee26d8",
+      "strategy": "hierarchical-250-1000",
+      "retrieved_ids": [
+        "squad-doc-023:::hierarchical-250-1000:::0002",
+        "squad-doc-012:::hierarchical-250-1000:::0004",
+        "squad-doc-011:::hierarchical-250-1000:::0011",
+        "squad-doc-018:::hierarchical-250-1000:::0007",
+        "squad-doc-003:::hierarchical-250-1000:::0005"
+      ],
+      "recall": 1.0,
+      "answer": "1018",
+      "n_claims": 1,
+      "n_supported": 0,
+      "faithfulness": 0.0,
+      "context_truncated": true
+    }
+  ]
+}
